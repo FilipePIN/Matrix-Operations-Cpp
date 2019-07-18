@@ -6,8 +6,8 @@
         {
             "label": "compile_file",
             "type": "shell",
-            // "command": "g++ -g Hello.cpp -o Hello",
-            "command": "g++ -g ${file} -o compiled",
+            // "command": "g++ -g ${file} -o compiled",
+            "command": "g++ -g *.cpp -o compiled",
             "group": {
                 "kind": "build",
                 "isDefault": true

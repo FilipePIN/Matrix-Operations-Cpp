@@ -13,27 +13,27 @@ int main(){
     Matriz teste1(m1,n1,v1);
     cout << endl;
     cout << teste1 << endl;
-    cout << "o mesmo para outra matriz" << endl;
-    int m2,n2,v2;
-    cin >> m2 >> n2 >> v2;
-    Matriz teste2(m2,n2,v2);
-    cout << teste2 << endl;
-    cout << endl;
-    teste1 += teste2;
-    cout << "A soma das matrizes é" << teste1 << endl;
+    // cout << "o mesmo para outra matriz" << endl;
+    // int m2,n2,v2;
+    // cin >> m2 >> n2 >> v2;
+    // Matriz teste2(m2,n2,v2);
+    // cout << teste2 << endl;
+    // cout << endl;
+    // teste1 += teste2;
+    // cout << "A soma das matrizes é" << teste1 << endl;
     
-    // teste1(1,1) = 1.5;
-    // teste1(1,2) = 2;
-    int a,b;
-    b = teste1.getRows();
-    a = teste1.getCols();
-    // cout << teste1 << endl;
+    // // teste1(1,1) = 1.5;
+    // // teste1(1,2) = 2;
+    // int a,b;
+    // b = teste1.getRows();
+    // a = teste1.getCols();
+    // // cout << teste1 << endl;
 
-    Matriz teste(teste1);//construtor de cópia
-    teste.unit();
+    // Matriz teste(teste1);//construtor de cópia
+    // teste.unit();
 
     // teste1 =~ teste1;
-    cout << " matriz identidade: " << teste << endl;
+    // cout << " matriz identidade: " << teste << endl;
 
     ////////////
 
